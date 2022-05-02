@@ -29,10 +29,10 @@ let lightColor = (element, number) => {
     number = number * 500;
     setTimeout(() => {
         element.classList.add('selected');
-    }, number -250);
+    }, number -300);
     setTimeout(() => {
         element.classList.remove('selected');
-    });
+    },number -1);
 }
 
 // CHECA SE OS BOTOES CLICADOS SAO OS MESMOS DA ORDEM GERADA NO JOGO
@@ -44,7 +44,7 @@ let checkOrder = () => {
         }
     }
     if(clickedOrder.length == order.length){
-        alert(`Pontuação: $(score)\n Você acertou! Iniciando proximo nivel!`);
+        alert("Você acertou!\nPontuação atual: " + score + "\nIniciando proximo nivel!");
         nextLevel();
     }
 }
@@ -81,7 +81,8 @@ let nextLevel = () =>{
 
 //FUNCAO PARA GAME OVER
 let lose = () => {
-    alert(`Pontuação: $(score) \n Você perdeu! Clique em OK para iniciar um novo jogo`);
+    score--;
+    alert("Você perdeu! Pontuação Final: " + score + "\nClique em OK para iniciar um novo jogo!");
     order = [];
     clickedOrder = [];
 
@@ -90,7 +91,7 @@ let lose = () => {
 
 //FUNCAO DE INICIO DO JOGO
 let playGame = () =>{
-    alert('Bem vindo ao Genesis! Iniciando novo jogo...');
+    alert('Bem vindo ao Genesis!\nClique em OK para iniciar um novo jogo.');
     score = 0;
 
     nextLevel();
