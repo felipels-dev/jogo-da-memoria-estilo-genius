@@ -11,11 +11,11 @@ Aprender na pratica como desenvolver um jogo de forma eficiente e interativo par
 - Salve os arquivos localmente e execute no index.html no navegador de sua preferência;
 
 - Aparecera uma mensagem dizendo para clicar em OK para iniciar um novo jogo;
-- Você deve clicar na cor correspondente que aparecer na tela na mesma sequencia que ela piscar
-- A cada sequencia correta você ganhará 1 ponto
-- A cada nova sequencia uma nova cor será adicionada aleatoriamente na sequencia anterior
-- Se caso errar a sequencia o jogo acaba mostrando a pontuação final que foi atingida
-- Caso queira jogar novamente após perder uma partida, clique em OK
+- Você deve clicar na cor correspondente que aparecer na tela na mesma sequencia que ela piscar;
+- A cada sequencia correta você ganhará 1 ponto;
+- A cada nova sequencia uma nova cor será adicionada aleatoriamente na sequencia anterior;
+- Se caso errar a sequencia o jogo acaba mostrando a pontuação final que foi atingida;
+- Caso queira jogar novamente após perder uma partida, clique em OK.
 
 ### Benefícios de se jogar Genius :interrobang:
 
