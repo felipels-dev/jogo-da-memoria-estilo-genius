@@ -44,7 +44,7 @@ let checkOrder = () => {
         }
     }
     if(clickedOrder.length == order.length){
-        alert("Você acertou!\nPontuação atual: " + score + "\nIniciando proximo nivel!");
+        alert("Você acertou!\nPontuação atual: " + score + "\nClique em OK para iniciar o proximo nivel!");
         nextLevel();
     }
 }
@@ -91,7 +91,7 @@ let lose = () => {
 
 //FUNCAO DE INICIO DO JOGO
 let playGame = () =>{
-    alert('Bem vindo ao Genesis!\nClique em OK para iniciar um novo jogo.');
+    alert('Bem vindo ao Genius!\nClique em OK para iniciar um novo jogo.');
     score = 0;
 
     nextLevel();
